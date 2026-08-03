@@ -56,19 +56,19 @@ class Library:
         print("\nTotal Activities: ",len(self))
         
         
-l1 = Library("Aditya Deshpande", "Cyber Security")
+l1 = Library("Pratik Shinde", "Cyber Security")
 l1.add_activity("Book Issued")
 l1.add_activity("Completed Chapter 1")
 l1.add_activity("Returned on Time")
 
 Library.change_library("Central Digital Library")
 
-l2 = Library("Prabhu Patil", "Python Programming")
+l2 = Library("Aditya ", "Python Programming")
 l2.add_activity("Book issued")
 l2.add_activity("Renewed for 7 days")
 l2.add_activity("Returned Successfully")
 
-l3 = Library("Pratik Kshirsagar", "Data Science")
+l3 = Library("Sarthak", "Data Science")
 l3.add_activity("Book Issued")
 l3.add_activity("Completed Reading")
 l3.add_activity("Book Returned")
